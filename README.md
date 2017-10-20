@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## <span id="back">网络硬件</span> ##
 
-You can use the [editor on GitHub](https://github.com/sheldonjie/hardware.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### [*<<Index*](http://sheldonjie.github.io/)
+----------
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+|Name|Define|
+|:----:|:----|
+|**桥（网桥）**|数据链路层（OSI参考模型）中多个网段互联的功能实体，即通过两个接口连接两个冲突域的装置|
+|**桥接过程**|通过网桥进行的数据发送|
+|**中继器（repeater）**|一种信号增强装置，在OSI参考模型的第1层上运行|
+|**集线器（hub）**|指集中器设备（concentrator）|
 
-### Markdown
+带有中继器功能的集线器也可以称为共享式集线器、多端口中继器、中继集线器等。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+> 在网络术语中，集线器一般是指共享式集线器。
 
-```markdown
-Syntax highlighted code block
+交换式集线器：指将连接着两台通信终端的两个端口在装置内部绑定，使其他端口的信号无法介入，从而防止发生冲突，弥补了共享式集线器的不足。
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sheldonjie/hardware.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<br>
+[*^Back to Top^*](#back)
